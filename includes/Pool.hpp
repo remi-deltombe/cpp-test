@@ -35,7 +35,7 @@ namespace CppTest
         }
 
     private:
-        std::vector<std::unique_ptr<Test::Test>> _tests;
+        std::vector<std::unique_ptr<CppTest::Test>> _tests;
     };
 };
 
